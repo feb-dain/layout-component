@@ -3,11 +3,11 @@ import type { Meta } from '@storybook/react';
 
 import { getTypedObjectKeys } from '@utils/getTypedObjectKeys';
 
-import { ALIGNMENT } from '.';
 import { sizeArgTypes } from '../styles/size';
 import { spacingArgTypes } from '../styles/spacing';
 import type { ContainerProps } from './Container';
 import Container from './Container';
+import { ALIGNMENT } from './Container.style';
 
 const meta = {
   title: 'Layout/Container',
