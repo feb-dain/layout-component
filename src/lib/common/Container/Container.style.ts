@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 
-import type { WidthStyle } from '../Container';
+import type { WidthStyle } from './Container';
 
 export const ALIGNMENT = {
   left: '0',

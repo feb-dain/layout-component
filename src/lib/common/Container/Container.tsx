@@ -2,8 +2,7 @@ import { sizeStyle, type Size } from '../styles/size';
 import type { Spacing } from '../styles/spacing';
 import { spacingStyle } from '../styles/spacing';
 import type { CommonProps } from '../types/common';
-import type { Alignment } from './style';
-import { positionStyle, widthStyle } from './style';
+import { positionStyle, type Alignment, widthStyle } from './Container.style';
 
 export interface WidthStyle {
   /** 너비가 부모 박스 너비에 맞춰(100%) 유동적으로 변함

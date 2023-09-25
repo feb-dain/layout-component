@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 
 import type { ContainerProps } from '../Container/Container';
 import Container from '../Container/Container';
-import type { Gap, Layout } from './style';
-import { gapStyle, layoutStyle } from './style';
+import type { Gap, Layout } from './FlexContainer.style';
+import { gapStyle, layoutStyle } from './FlexContainer.style';
 
 export type BasicLayoutProps = Gap & ContainerProps;
 

@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 
 import { addUnit } from '@utils/addUnit';
 
-import type { GridProps } from '../Grid';
+import type { GridProps } from './Grid';
 
 interface GridRepeatStyleProps {
   itemCount?: number | string;

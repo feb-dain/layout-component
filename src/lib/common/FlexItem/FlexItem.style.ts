@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 
-import type { FlexItemProps } from '../FlexItem';
+import type { FlexItemProps } from './FlexItem';
 
 export const flexItemStyle = ({ order, shrink, grow, flex, alignSelf }: FlexItemProps) => css`
   ${order && `order: ${order}`};

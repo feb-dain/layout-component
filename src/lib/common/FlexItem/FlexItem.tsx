@@ -3,7 +3,7 @@ import Grid from '../Grid';
 import type { Size } from '../styles/size';
 import type { Spacing } from '../styles/spacing';
 import type { CommonProps } from '../types/common';
-import { flexItemStyle } from './style';
+import { flexItemStyle } from './FlexItem.style';
 
 export interface FlexItemProps extends Size, Spacing, CommonProps {
   /** Flex Item 순서 변경 가능 */

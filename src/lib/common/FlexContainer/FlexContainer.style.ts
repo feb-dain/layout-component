@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 
-import type { FlexLayoutStyle, FlexContainerProps } from '../FlexContainer';
+import type { FlexLayoutStyle, FlexContainerProps } from './FlexContainer';
 
 export const LAYOUT = {
   topLeft: {
